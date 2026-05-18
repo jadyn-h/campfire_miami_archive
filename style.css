@@ -3,6 +3,7 @@
 :root {
     --base-color: #a9defc; 
     --text-color: #000000; 
+    --primary-color: #388de3; 
 }
 
 * {
@@ -28,6 +29,7 @@ h1, h2, h3 {
 nav {
     margin: 1em auto 3em auto;
     width: min(1000px, 100%);
+    background-color: var(--primary-color);
 }
 
 nav ul {
