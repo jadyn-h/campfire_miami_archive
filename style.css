@@ -87,12 +87,14 @@ header img{
 
 .text-container1{
     flex: 0 1 34em;
+    align-items: center;
 }
 
 .text-container2{
     flex: 0 1 34em;
     margin: 0.75em 0 1em 0;
     font-size: 1.25rem;
+    align-items: center;
 }
 
 h1 {
