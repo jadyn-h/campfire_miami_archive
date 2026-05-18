@@ -69,3 +69,32 @@ header, section {
     flex-wrap: wrap;
     gap: 3em;
 }
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img{
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text-container1{
+    flex: 0 1 34em;
+}
+
+.text-container2{
+    flex: 0 1 34em;
+    margin: 0.75em 0 1em 0;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
