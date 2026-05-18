@@ -53,3 +53,11 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(--base-color)
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
