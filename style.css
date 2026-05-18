@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 nav {
-    margin: 1em auto 3em auto;
+    margin: -3em auto 4em auto;
     width: min(1000px, 100%);
     background-color: var(--primary-color);
 }
@@ -67,6 +67,7 @@ header, section {
     justify-content: center;
     align-items: center;
     gap: 3em;
+    padding: 1em;
 }
 
 .flex-container2 {
@@ -87,6 +88,7 @@ header img{
 .text-container1{
     flex: 0 1 34em;
     text-align: center;
+    padding: 1em;
 }
 
 .text-container2{
