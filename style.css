@@ -87,6 +87,14 @@ header, section {
     transform: rotate(180deg);
 }
 
+.flex-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
 header img{
     max-width: 100%;
     border-radius: 1em;
