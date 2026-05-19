@@ -22,7 +22,7 @@ body {
     background-color: var(--base-color);
 }
 
-h1, h2, h3 {
+h1 {
     font-family: Gorditas;
 }
 
@@ -76,6 +76,15 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    transform: rotate(180deg);
 }
 
 header img{
