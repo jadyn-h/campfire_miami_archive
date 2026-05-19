@@ -26,6 +26,9 @@ h1, h2{
     font-family: Gorditas;
     align-items: center;
 }
+p {
+    font-size: 25px;
+}
 
 nav {
     margin: -3em auto 4em auto;
