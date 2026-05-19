@@ -24,10 +24,10 @@ body {
 
 h1, h2{
     font-family: Gorditas;
+    align-items: center;
 }
 
 nav {
-    font-family: Comfortaa;
     margin: -3em auto 4em auto;
     width: min(1000px, 100%);
     background-color: var(--primary-color);
@@ -43,7 +43,7 @@ nav ul {
 
 nav li:first-child {
     margin-right: auto;
-    font-family: Gorditias;
+    font-family: Comfortaa;
     font-weight: bold;
 }
 
