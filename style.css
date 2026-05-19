@@ -27,6 +27,7 @@ h1 {
 }
 
 nav {
+    font-family: Comfortaa;
     margin: -3em auto 4em auto;
     width: min(1000px, 100%);
     background-color: var(--primary-color);
@@ -52,6 +53,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: white; 
 }
 
 header, section {
