@@ -18,11 +18,11 @@ html {
 }
 
 body {
-    padding: 1em;
+
     background-color: var(--base-color);
 }
 
-h1 {
+h1, h2{
     font-family: Gorditas;
 }
 
@@ -95,6 +95,7 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+    padding-bottom: 1em;
 }
 
 .flex-container5 {
