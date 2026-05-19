@@ -122,6 +122,17 @@ header img{
     text-align: center;
 }
 
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--primary-color);
+    padding: .75em 1.25em;
+    border-radius: .5em;
+    font-weight: 600;
+}
+
+
 h1 {
     font-size: 4.5rem;
 }
