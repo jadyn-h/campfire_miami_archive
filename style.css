@@ -31,6 +31,7 @@ nav {
     margin: -3em auto 4em auto;
     width: min(1000px, 100%);
     background-color: var(--primary-color);
+    padding: 0.5em;
 }
 
 nav ul {
@@ -95,7 +96,7 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .flex-container5 {
