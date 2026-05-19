@@ -24,7 +24,7 @@ body {
 
 h1, h2{
     font-family: Gorditas;
-    align-items: center;
+    text-align: center;
 }
 p {
     font-size: 25px;
@@ -73,7 +73,7 @@ header, section {
     justify-content: center;
     align-items: center;
     gap: 3em;
-    padding: 1em;
+    padding: 2em;
 }
 
 .flex-container2 {
@@ -99,6 +99,7 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -108,6 +109,8 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 header img{
