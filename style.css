@@ -107,6 +107,13 @@ header img{
     text-align: center;
 }
 
+.text-container2{
+    flex: 0 1 34em;
+    margin: 0.75em 0 1em 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
 h1 {
     font-size: 4.5rem;
 }
