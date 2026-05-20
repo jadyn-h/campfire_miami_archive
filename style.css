@@ -4,6 +4,7 @@
     --base-color: #a9defc; 
     --text-color: #000000; 
     --primary-color: #388de3; 
+    --secondary-color: #c8519C;
 }
 
 * {
@@ -100,13 +101,9 @@ header, section {
     flex-wrap: wrap;
     gap: 3em;
     transform: rotate(180deg);
+    padding-bottom: 2em;
 }
 
-.flex-container6{
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .flex-container4 {
     display: flex;
@@ -126,6 +123,12 @@ header, section {
     gap: 3em;
     padding-top: 1em;
     padding-bottom: 3em;
+}
+
+.flex-container6{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 header img{
@@ -153,7 +156,7 @@ header img{
 .text-container3{
     flex: 0 1 34em;
     margin: 0.75em 0 1em 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-bottom: 1.5em;
 }
@@ -168,6 +171,9 @@ header img{
     font-weight: 600;
 }
 
+.secondary {
+    background-color: var(--secondary-color);
+}
 
 h1 {
     font-size: 4.5rem;
