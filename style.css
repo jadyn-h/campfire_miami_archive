@@ -29,6 +29,9 @@ h1, h2{
 p {
     font-size: 25px;
 }
+p + p + p {
+    padding-top: 1em;
+}
 
 nav {
     margin: -3em auto 4em auto;
