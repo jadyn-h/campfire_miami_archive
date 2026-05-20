@@ -90,6 +90,7 @@ header, section {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+    padding-top: 1em;
 }
 
 .flex-container3 {
@@ -99,6 +100,12 @@ header, section {
     flex-wrap: wrap;
     gap: 3em;
     transform: rotate(180deg);
+}
+
+.flex-container3.5{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .flex-container4 {
@@ -164,4 +171,8 @@ header img{
 
 h1 {
     font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
 }
