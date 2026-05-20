@@ -29,8 +29,13 @@ h1, h2{
 p {
     font-size: 25px;
 }
-p + p + p {
+h2 + p {
     padding-top: 1em;
+    padding-bottom: 1em;
+}
+p + p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 nav {
@@ -113,7 +118,7 @@ header, section {
     flex-wrap: wrap;
     gap: 3em;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 header img{
@@ -143,6 +148,7 @@ header img{
     margin: 0.75em 0 1em 0;
     font-size: 1.25rem;
     text-align: center;
+    padding-bottom: 1.5em;
 }
 
 .cta-button {
