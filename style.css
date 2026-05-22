@@ -131,8 +131,10 @@ header, section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 3em;
-    padding-bottom: 2em;
-    flex-direction: column;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    flex-direction: row;
 }
 
 header img{
@@ -173,13 +175,17 @@ header img{
     text-decoration: none;
     color: black;
     background-color: var(--primary-color);
-    padding: .75em 1.25em;
+    padding: 1.0em 1.50em;
     border-radius: .5em;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 .image-Reveal{
     animation: imageReveal both;
     animation-timeline: view(50% 20%);
+}
+.picture {
+
 }
 @keyframes imageReveal {
     from {
