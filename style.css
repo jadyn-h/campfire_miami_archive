@@ -5,7 +5,7 @@
     --text-color: #000000; 
     --primary-color: #388de3; 
     --secondary-color: #c8519C;
-    --real-primary-color: #7b417e;
+    --tertiary-color: #7b417e;
 }
 
 * {
@@ -43,7 +43,7 @@ p + p {
 nav {
     margin: -3em auto 4em auto;
     min-width: 100%;
-    background-color: var(--real-primary-color);
+    background-color: var(--tertiary-color);
     padding: 0.5em;
 }
 
@@ -205,6 +205,11 @@ header img{
 
 .secondary {
     background-color: var(--secondary-color);
+}
+
+.bottom-panel{
+    padding-top: 5em;
+    max-width: 100%;
 }
 
 section {
