@@ -220,6 +220,9 @@ header img{
     max-width: 100%;
 }
 
+.flower-right{
+    align-items: right;
+}
 section {
     padding: 3em min(2em, 15%);
     background-color: var(--primary-color);
