@@ -43,7 +43,6 @@ p + p {
 }
 
 nav {
-    margin: -3em auto 4em auto;
     min-width: 100%;
     background-color: var(--tertiary-color);
     padding: 1em 0 1em 0;
