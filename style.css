@@ -77,6 +77,7 @@ header, section {
     width: min(75em, 100%);
     background-color: var(--base-color)
     padding: min(2em, 15%);
+    border-radius: 1em;
 }
 
 .flex-container1 {
@@ -218,6 +219,10 @@ header img{
 
 .secondary {
     background-color: var(--secondary-color);
+}
+
+.mid{
+    align-items: center;
 }
 
 .bottom-panel{
