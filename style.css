@@ -222,6 +222,8 @@ header img{
 
 .flower-right{
     align-items: right;
+    width: 150;
+    height: auto;
 }
 section {
     padding: 3em min(2em, 15%);
