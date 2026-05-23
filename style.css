@@ -43,6 +43,7 @@ p + p {
 }
 
 nav {
+    margin: -3em auto 4em auto;
     min-width: 100%;
     background-color: var(--tertiary-color);
     padding: 1em 0 1em 0;
@@ -76,7 +77,6 @@ header, section {
     width: min(75em, 100%);
     background-color: var(--base-color)
     padding: min(2em, 15%);
-    border-radius: 1em;
 }
 
 .flex-container1 {
@@ -139,6 +139,12 @@ header, section {
     flex-direction: row;
 }
 
+flex-container7{
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+}
 header img{
     max-width: 100%;
     border-radius: 1em;
