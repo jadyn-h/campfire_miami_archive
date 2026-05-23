@@ -219,10 +219,6 @@ header img{
     padding-top: 5em;
     max-width: 100%;
 }
-.flower-left{
-    display: flex;
-    margin-left: 850px;
-}
 
 section {
     padding: 3em min(2em, 15%);
