@@ -220,7 +220,7 @@ header img{
     max-width: 100%;
 }
 .flower-left{
-    display: block;
+    display: flex;
     margin-left: 850px;
 }
 
