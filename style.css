@@ -279,6 +279,15 @@ header img{
     border-radius: 10px;
 }
 
+.timeline_title{
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.timeline_paragraph{
+    line-height: 1.5;
+}
 section {
     padding: 3em min(2em, 15%);
     background-color: var(--primary-color);
