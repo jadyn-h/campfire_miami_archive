@@ -255,12 +255,12 @@ header img{
 .timeline_date--right{
     text-align: right;
     color: white;
-    font-weight: semibold;
+    font-weight: bold;
 }
 
 .timeline_middle{
     position: relative;
-    background: white;
+    background: #FFDCF2;
 }
 
 .timeline_point{
