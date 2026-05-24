@@ -258,7 +258,7 @@ header img{
 
 .timeline_middle{
     position: relative;
-    color: white;
+    background: white;
 }
 
 .timeline_point{
@@ -271,12 +271,19 @@ header img{
     background: var(--secondary-color);
     border-radius: 50%;
 }
+.timeline_point--bottom {
+    top: initial;
+    bottom: 0;
+}
 
 .timeline_component--bg{
     padding: 1.5em;
     background: rgba(220, 111, 186, 1);
     box-shadow: 0 0 5px rgba(220, 111, 186, 1);
     border-radius: 10px;
+}
+.timeline_component--bottom{
+   margin-bottom: 0;
 }
 
 .timeline_title{
