@@ -145,6 +145,7 @@ flex-container7{
     border-radius: 1em;
     object-fit: cover;
     object-position: bottom;
+    flex-direction: row;
 }
 header img{
     max-width: 100%;
@@ -179,6 +180,7 @@ header img{
 
 .text-container4{
     flex: 0 1 34em;
+    text-align: right;
 }
 .cta-button {
     display: inline-block;
@@ -225,6 +227,8 @@ header img{
     align-items: center;
 }
 
+
+
 .bottom-panel{
     padding-top: 5em;
     max-width: 100%;
@@ -232,9 +236,49 @@ header img{
 
 .flower-right{
     align-items: right;
-    width: 50;
+    width: 25;
     height: auto;
 }
+
+.timeline {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: var(--base-color);
+}
+.timeline_component {
+    margin: 0 20px 20px 20px;
+}
+
+.timeline_date--right{
+    text-align: right;
+}
+
+.timeline_middle{
+    position: relative;
+    color: white;
+}
+
+.timeline_point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.timeline_component--bg{
+    padding: 1.5em;
+    background: rgba(220, 111, 186, 1);
+    box-shadow: 0 0 5px rgba(220, 111, 186, 1);
+    border-radius: 10px;
+}
+
 section {
     padding: 3em min(2em, 15%);
     background-color: var(--primary-color);
@@ -253,3 +297,4 @@ section p {
     margin-top: 1em;
     font-size: 1.25rem;
 }
+
