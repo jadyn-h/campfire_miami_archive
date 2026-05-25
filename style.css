@@ -258,8 +258,10 @@ header img{
     font-weight: bold;
 }
 
-.timeline_date{
-    text-align: ;
+.timeline_date--left{
+    text-align: left;
+    color: white;
+    font-weight: bold;
 }
 
 .timeline_middle{
