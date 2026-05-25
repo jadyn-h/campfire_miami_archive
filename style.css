@@ -82,7 +82,8 @@ header, section {
 
 .flex-container1 {
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
     gap: 3em;
     padding: 2em;
 }
