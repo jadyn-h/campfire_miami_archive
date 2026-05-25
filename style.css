@@ -146,7 +146,7 @@ header, section {
     border-radius: 1em;
     object-fit: cover;
     object-position: bottom;
-    justify-content: ;
+    justify-content: center;
 }
 header img{
     max-width: 100%;
