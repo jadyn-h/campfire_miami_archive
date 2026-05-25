@@ -84,6 +84,7 @@ header, section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3em;
     padding: 2em;
 }
@@ -140,7 +141,7 @@ header, section {
     flex-direction: row;
 }
 
-flex-container7{
+.flex-container7{
     max-width: 100%;
     border-radius: 1em;
     object-fit: cover;
