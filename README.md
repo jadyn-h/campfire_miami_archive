@@ -14,7 +14,12 @@ These are the video tutorials I followed:
 
     - https://www.youtube.com/watch?v=AIDiMA_C3sg
     For the timelines
-    
-    - 
+
+    - https://www.youtube.com/watch?v=16PncZlSNds&t=182s
+    For the scroll animations
 
 # Version History
+V1 was created for qualifying for Sleepover and was completed on May 25th, 2026
+
+# Notes
+I plan to improve this website in the future to make it more polished and fix some bugs/aspects I'm not happy with. For now I'm finished though, peace!
